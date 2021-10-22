@@ -1,0 +1,84 @@
+html    {
+    background-image: linear-gradient(45deg, aqua, black);
+}
+h1  {
+    border: solid black 1px;
+    padding: 2px;
+    background-color: aqua;
+
+}
+h3{
+    border: solid black 1px;
+    padding: 2px;
+    background-color: lightgray;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+}
+#container  {
+    display: flex;
+    flex-direction: column;
+    border: soid 1px black;
+}
+#buttons{
+    display: flex;
+}
+/* #todo   {
+    flex-grow: 1;
+    border: black solid 1px;
+    background-color: lightgray;
+}
+#posts  {
+    flex-grow: 1;
+    border: black solid 1px;
+    background-color: lightgray;
+}
+#button {
+    display:flex;
+} */
+#results    {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+}
+#todoResults    {
+    flex-grow: 1;
+}
+#postResults    {
+    flex-grow: 1;
+}
+th  {
+    width: 100 px;
+    border: solid black 1px;
+    background-color: lightgray;
+}
+td  {
+    height: 100 px;
+    border: solid black 1px;
+    background-color: lightgray;
+}
+#todobtn    {
+    flex-grow: 1;
+    background-color:aqua;
+    border: solid 1px black;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+#postsbtn    {
+    flex-grow: 1;
+    background-color:aqua;
+    border: solid 1px black;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
